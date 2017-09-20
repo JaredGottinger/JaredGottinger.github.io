@@ -1,1 +1,57 @@
+HTML code printout for main.html
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<div>
+			<Title>CPS530 Lab 1 Main Page</Title>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+			<p>Name: Jared Gottinger <br>
+			Student Number: 500562311
+			</p>
+		</div>
+	</head>
+
+	<body>
+		<div>
+			<h1> First Semester Courses</h1>
+			<ul> 
+				<li>CPS 530 </li>
+				<li>CPS 840 </li>
+				<li>HST 777 </li>
+				<li>HST 603 </li>
+				<li>ACC 100 </li>
+			</ul>
+		</div>
+		
+		
+		<div>
+			<table border="1">
+				<tr>
+					<th colspan="2">CPS 530 Mark Breakdown</th>
+				</tr>
+				<tr>
+					<th>Item</th>
+					<th>Grade Weight</th>
+				</tr>
+				<tr>
+					<td>Labs</td>
+					<td>15%</td>
+				</tr>
+				<tr>
+					<td>Final Project</td>
+					<td>35%</td>
+				</tr>
+				<tr>
+					<td>Exam</td>
+					<td>50%</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div>
+			<p>HTML5 Compliancy <a href="http://validator.w3.org/check?uri=https%3A%2F%2Fjaredgottinger.github.io%2F&charset=%28detect+automatically%29&doctype=Inline&group=0">Report</a></p>
+			<p>Technical <a href="report.txt">Report</a> </p>
+		</div>
+	</body>
+</html>
