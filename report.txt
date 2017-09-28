@@ -58,7 +58,7 @@ HTML code printout for main.html
 
 REPORT BODY---------------------------------------------------
 
-The password protection method I chose was to use a javascript prompt where the entered password would have to match a predefined hard-coded value. I also put it in a while loop so more than one attempt can be made to enter the password.
+The password protection method I chose was to use a javascript prompt where the entered password would have to match a predefined hard-coded value. If the values match, you will be redirected to the content page. I also put it in a while loop so more than one attempt can be made to enter the password.
 
 The new tag I tried was the <table> tag. While I do have past html experience, I hadn't needed to use the table tag at any point so this was my first time using it. As you'd expect, it allowed me to create a table. By adjusting the attributes, I was able to change the border size and header rows to make it more visually appealing.
 
