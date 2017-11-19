@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script>
+			$(document).ready(function() {
+				var myJSON = {
+						"radioname":"Yimago Radio 2",
+						"rank":"1",
+						"isradionomy":"1",
+						"radurl":"http://www.radionomy.com/yimago-radio-2",
+						"track": {
+							"uniqueid":"4289230108",
+							"title":"Kanaka Nova - Recaido",
+							"artists":"Charlie Recaido",
+							"starttime":"2017-11-19 18:00:45.6",
+							"playduration":"197624",
+							"current":"1",
+							"cover":"http://i3.radionomy.com/tracks/232/2a590ed3-5802-44f8-b8ef-b9b1c6945d3f?radiouid=8284da0b-1ab2-4aae-b779-3eecaf7c584e",
+							"callmeback":"1"
+						}
+				} 
+				document.getElementById("radio").innerHTML = myJSON.radioname;
+				if (myJSON.isradionomy == "1") {
+					document.getElementById("rank").innerHTML = "Rank " + myJSON.rank + " on Radionomy";
+				} else {
+					document.getElementById("rank").innerHTML = "Rank " + myJSON.rank;
+				}
+				document.getElementById("title").innerHTML = myJSON.track.title;
+				document.getElementById("id").innerHTML = myJSON.track.uniqueid;
+				document.getElementById("artists").innerHTML = myJSON.track.artists;
+				document.getElementById("start").innerHTML = myJSON.track.starttime;
+				document.getElementById("length").innerHTML = myJSON.track.playduration;
+				
+				document.getElementById("cover").src = myJSON.track.cover;
+			})
+		</script>
+	<head>
+	<body>
+		<div class="container-title">
+			<a href="http://www.radionomy.com/yimago-radio-2" class="radio" id="radio"></a>
+			<p class="rank" id="rank"></p>
+		</div>
+		<div class="container-body">
+			<p class="p-container"><img src="" id="cover"/><br>
+			<span class="heading">Title: </span><span class="content" id="title"></span><br>
+			<span class="heading">Song ID: </span><span class="content" id="id"></span><br>
+			<span class="heading">Artist(s): </span><span class="content" id="artists"></span><br>
+			<span class="heading">Start time: </span><span class="content" id="start"></span><br>
+			<span class="heading">Song length: </span><span class="content" id="length"></span></p>
+		</div>
+
+	</body>
+</html>
