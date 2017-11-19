@@ -1,0 +1,68 @@
+a {
+	font-size: 2em;
+	font-family: 'Alfa Slab One';
+	text-decoration: none;
+	margin-top: 20px;
+	text-align: center;
+	border-style: solid;
+	border-radius: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.rank {
+	font-size: 1em;
+	font-weight: 550;
+	font-family: 'Alfa Slab One';
+	text-align: center;
+}
+
+#trackInfo {
+	
+}
+
+.container-title {
+	border-radius: 25px;
+	background-color: #eeeeed;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 15px;
+	text-align: center;
+}
+
+.container-body {
+	border-radius: 25px;
+	background-color: #eeeeed;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
+
+.p-container {
+	position: relative;
+}
+
+.heading {
+	margin-left: 20px;
+	font-weight: 600;
+	text-decoration: underline;
+	font-family: 'Alfa Slab One';
+}
+
+.content {
+	font-family: 'Alfa Slab One';
+	position: absolute;
+	font-weight: 300;
+	left: 350px;
+}
+
+img {
+	float: left;
+	width: 150px;
+	height: 150px;
+}
